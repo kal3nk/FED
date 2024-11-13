@@ -37,14 +37,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Goodreads
+  https://www.goodreads.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Goodreads | Meet your next favorite book
+  https://www.goodreads.com
   <img src="readme-images/Goodreads-Meet-your-next-favorite-book.png" width="375px" alt="Dit is een screenshot van de homepagina van de website Goodreads.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  1984 by George Orwell | Goodreads 
+  https://www.goodreads.com/book/show/61439040-1984
   <img src="readme-images/1984-by-George-Orwell-Goodreads.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
