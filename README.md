@@ -50,7 +50,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   1984 by George Orwell | Goodreads 
   https://www.goodreads.com/book/show/61439040-1984
   
-  <img src="readme-images/1984-by-George-Orwell-Goodreads.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/1984-by-George-Orwell-Goodreads.png" width="375px" alt="Dit is een screenshot van de boekpagina voor het boek 1984 van George Orwell.">
  
 </details>
 
@@ -70,16 +70,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages. (In het Engels is het LTR en in het Japans is het RTL.)
 
   ### Global Code
-  - Ensure that viewport zoom is not disabled.
-  - Use landmark elements to indicate important content regions
-  - Ensure a linear content flow.
-  - Avoid using the autofocus attribute.
+  - Provide a unique title for each page or view. (Er zijn unieke titles voor iedere pagina.)
+  - Ensure that viewport zoom is not disabled. (Het is enabled.)
+  - Use landmark elements to indicate important content regions. 
+  - Ensure a linear content flow. (Wordt tabindex gebruikt met alleen maar 0 en -1 als waardes.)
+  - Avoid using the autofocus attribute. (Er is geen autofocuse attribute.)
 
   ### Lists
-  - Use list elements (ol, ul, and dl elements) for list content.
+  - Use list elements (ol, ul, and dl elements) for list content. (Worden ol's en ul's gebruikt.)
 
   ### Controls
-  - Use the a element for links.
+  - Use the a element for links. (Worden a href= elements gebruikt.)
   - Ensure that links are recognizable as links. (Het wordt onderlijnd of er is een animatie zichtbaar.)
   - Use the button element for buttons. (Buttons worden gebruikt.)
   - Identify links that open in a new tab or window. (Alleen maar links die leiden naar andere websites openen in een nieuwe tab, en deze zijn makkelijk te onderscheiden van andere links.)
@@ -91,7 +92,33 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Appearance
   - Check your content in specialized browsing modes. (Zowel high contrast als inverted colors geprobeerd, de content is leesbaar, maar sommige boekcovers zijn amper te begrijpen.)
   - Increase text size to 200%. (Het kan.)
+  - Make sure color isn't the only way information is conveyed. (Het wordt aangegeven met onderlijningen of met buttons.)
 
+
+  ### Animation
+  - Ensure animations are subtle and do not flash too much. (Animaties zijn erg beperkt, maar de gene die er zijn, zijn heel erg minimaal. Alleen maar hover animaties, met veranderde kleuren.)
+
+  ### Color contrast
+  - Check the contrast for all normal-sized text. (Erg duidelijk contrast, vooral donker groen en zwart op beige/gebroken wit.)
+  - Check the contrast for all large-sized text (Hetzelfde geldt voor dit als het gene wat hierboven vermeldt word.)
+  - Check the contrast of borders for input elements (text input, radio buttons, checkboxes, etc.). (Dit is erg grootschalig goed verwerkt. Het enige wat tegenvalt is de "login with apple" button, maar dit is een template die ze gebruiken, niet van de webdevelopers zelf.)
+  - Check text that overlaps images or video. (Dit is zowel promotie materiaal als andere images goed gedaan, behalve bij sommige bookcovers, maar dit is niet de keuze van de developers, maar het gene wat ze hebben ontvangen van de uitgevers.)
+
+  ### Mobile and touch
+  - Check that the site can be rotated to any orientation. (Ja dit kan.)
+  - Ensure that button and link icons can be activated with ease. (Hier had ik zelf geen enkele moeite mee.)
+  - Ensure sufficient space between interactive items in order to provide scroll area. (Er zijn genoeg sufficient scorlling areas, ik had er zelf in ieder geval geen last van, maar misschien is het wel voor iemand anders moeilijk met een bepaalde beperking.)
+
+  ### Niet aangehouden richtlijnen die mij erg opvallen
+  - Validate your HTML. (Er zijn echt ontzettend veel errors in deze HTML.
+  - Use a lang attribute on the html element. (Er is geen aangegeven taal en die is ook nergens te vinden.)
+  - Make sure that all img elements have an alt attribute. (Geen enkel img element heeft een alt attribute, en op bepaalde pagina's zijn er zo enorm veel bookcovers en andere images, dat ik me echt afvraag hoe iemand ooit deze website met een screenreader zou kunnen gebruiken.)
+  - Headings. (Er is in allebei mijn pagina's geen enkele heading te bekennen, dus dit hele onderwerp kan ik eigenlijk niks mee.)
+  - Provide a skip link and make sure that it is visible when focused. (Er zijn geen skiplinks available.)
+  - Confirm the presence of captions. (Er zijn geen captions bij video's.)
+  - Confirm that transcripts are available. (Er zijn geen transcripts beschikbaar.)
+
+    
 </details>
 
 
