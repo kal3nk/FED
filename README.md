@@ -64,6 +64,34 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Ik zal eerst een lijst samenstellen van wat Goodreads wel goed doet, met commentaar. De  lijst er onder noem ik dingen die heel erg missen van de website.
+  
+  ### Content
+  - Use left-aligned text for left-to-right (LTR) languages, and right-aligned text for right-to-left (RTL) languages. (In het Engels is het LTR en in het Japans is het RTL.)
+
+  ### Global Code
+  - Ensure that viewport zoom is not disabled.
+  - Use landmark elements to indicate important content regions
+  - Ensure a linear content flow.
+  - Avoid using the autofocus attribute.
+
+  ### Lists
+  - Use list elements (ol, ul, and dl elements) for list content.
+
+  ### Controls
+  - Use the a element for links.
+  - Ensure that links are recognizable as links. (Het wordt onderlijnd of er is een animatie zichtbaar.)
+  - Use the button element for buttons. (Buttons worden gebruikt.)
+  - Identify links that open in a new tab or window. (Alleen maar links die leiden naar andere websites openen in een nieuwe tab, en deze zijn makkelijk te onderscheiden van andere links.)
+
+  ### Media
+  - Make sure that media does not autoplay. (Heb een aantal video's gecheckt en om ze te kunnen bekijken moet ik op een playbutton klikken.)
+  - Check to see all media can be paused. (Heb een aantal video's afgespeeld en gepauzeerd.)
+
+  ### Appearance
+  - Check your content in specialized browsing modes. (Zowel high contrast als inverted colors geprobeerd, de content is leesbaar, maar sommige boekcovers zijn amper te begrijpen.)
+  - Increase text size to 200%. (Het kan.)
+
 </details>
 
 
